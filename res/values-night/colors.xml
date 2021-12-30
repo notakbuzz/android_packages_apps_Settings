@@ -52,5 +52,7 @@
 
     <!-- Material inverse ripple color, useful for inverted backgrounds. -->
     <color name="ripple_material_inverse">@*android:color/ripple_material_light</color>
+
+    <color name="bliss_set_bg">?android:attr/colorControlHighlight</color>
 </resources>
 

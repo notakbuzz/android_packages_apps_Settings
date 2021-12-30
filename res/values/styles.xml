@@ -313,7 +313,7 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
         <item name="android:textSize">@dimen/search_bar_text_size</item>
-        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
         <item name="android:singleLine">true</item>
     </style>
 
@@ -798,7 +798,6 @@
     </style>
 
     <style name="HomepageTitleText" parent="CollapsingToolbarTitle.Expanded">
-        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">@dimen/homepage_title_margin_bottom</item>
         <item name="android:layout_marginHorizontal">@dimen/homepage_title_margin_horizontal</item>
@@ -920,5 +919,12 @@
         <item name="android:layout_marginEnd">8dp</item>
         <item name="android:paddingTop">20dp</item>
         <item name="android:paddingBottom">20dp</item>
+    </style>
+    <style name="TextAppearance.HomepagePreferenceTitle" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">48sp</item>
     </style>
 </resources>
