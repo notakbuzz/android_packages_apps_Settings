@@ -21,5 +21,4 @@
         <attr name="units" format="string|reference" />
         <attr name="continuousUpdates" format="boolean" />
     </declare-styleable>
-
 </resources>
